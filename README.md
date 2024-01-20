@@ -1,4 +1,5 @@
 🎓 Piattaforma Educativa
+ https://patriciafranceschi.github.io/scuolaonline/
 
 🌟 Riguardo il Progetto
 La Piattaforma Educativa è un sito web interattivo dedicato all'offerta di una varietà di corsi online in diverse discipline. Il nostro obiettivo è rendere l'istruzione di qualità accessibile a tutti, utilizzando la tecnologia per collegare studenti e insegnanti in un ambiente di apprendimento collaborativo e innovativo.
