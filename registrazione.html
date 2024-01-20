@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Piattaforma Educativa</title>
+  <link rel="stylesheet" type="text/css" href="stile.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="header">
+    <img src="images/logo.png" alt="Logo" class="header-logo">
+  </div>
+  <nav class="navbar navbar-expand-lg bg-nav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Piattaforma Educativa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="corsi.html">Corsi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="chiSiamo.html">Chi Siamo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="registrazione.html">Registrazione</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contatti.html">Contatti</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <br>
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!------ Include the above in your HEAD tag ---------->
+
+  <div class="container register">
+    <div class="row">
+      <div class="col-md-3 register-left">
+        <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
+        <h3> Benvenuto!</h3>
+        <p>Fai la tua iscrizione e inizia già il tuo corso</p>
+
+
+
+        <input type="submit" name="" value="Login" />
+        <p>Se ti sei già iscritto, fai il login</p><br />
+      </div>
+      <div class="col-md-9 register-right">
+        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+         
+
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <h3 class="register-heading">Registrazione</h3>
+            <div class="row register-form">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Nome  *" value="" />
+                                               
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Cognome *" value="" />
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Password *" value="" />
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Confirm Password *" value="" />
+                </div>
+                <div class="form-group">
+                  <div class="maxl">
+                    <label class="radio inline">
+                      <input type="radio" name="gender" value="male" checked>
+                      <span> Male </span>
+                    </label>
+                    <label class="radio inline">
+                      <input type="radio" name="gender" value="female">
+                      <span>Female </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email *" value="" />
+                </div>
+                <div class="form-group">
+                  <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control"
+                    placeholder="Telefono *" value="" />
+                </div>
+                <div class="form-group">
+                  <select class="form-control">
+                    <option class="hidden" selected disabled>Scegli il corso</option>
+                    <option>Corso di Inglese Online - Livello A1</option>
+                    <option>Corso di Programmazione Front-End Online</option>
+                    <option>Corso Online di Gestione Magazzino - Magazinieri</option>
+                    <option>Corso di Fotografia Digitale</option>
+                    <option>Corso di Cucina Italiana</option>
+                    <option>Corso di Marketing Digitale</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Indirizzo*" value="" />
+                </div>
+                <input type="submit" class="btnRegister" value="Register" />
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <h3 class="register-heading">Apply as a Hirer</h3>
+            <div class="row register-form">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Nome *" value="" />
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Cognome *" value="" />
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email *" value="" />
+                </div>
+                <div class="form-group">
+                  <input type="text" maxlength="10" minlength="10" class="form-control" placeholder="Telefono *"
+                    value="" />
+                </div>
+
+
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Password *" value="" />
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Confirm Password *" value="" />
+                </div>
+                <div class="form-group">
+                  <select class="form-control">
+                    <option class="hidden" selected disabled>Please select your Sequrity Question</option>
+                    <option>Qual è la tua data di nascita?</option>
+                    <option>Qual è il tuo vecchio numero di telefono</option>
+                    <option>What is your Pet Name?</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="`Answer *" value="" />
+                </div>
+                <input type="submit" class="btnRegister" value="Register" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="footer">
+    <p>Piattaforma Educativa © 2023</p>
+  </div>
+
+</body>
+
+</html>
