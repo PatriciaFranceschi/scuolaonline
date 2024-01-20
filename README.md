@@ -29,6 +29,7 @@ Crea una 🔖 branch per la tua modifica (git checkout -b feature/AmazingFeature
 Fai il ✅ commit delle tue modifiche (git commit -m 'Add some AmazingFeature').
 📤 Push alla branch (git push origin feature/AmazingFeature).
 Apri un 🔗 Pull Request.
+
 📜 Licenza
 Distribuito sotto la licenza MIT. Vedi LICENSE per maggiori informazioni.
 
